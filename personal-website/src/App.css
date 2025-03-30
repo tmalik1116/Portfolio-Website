@@ -11,3 +11,16 @@
   position:sticky;
   
 }
+
+.card::after{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(rgb(0, 166, 255), rgb(204, 0, 204), rgb(0, 166, 255));
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+}
