@@ -5,6 +5,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /* min-height: 100vh; */
+  /* background-color: rgb(34, 10, 94); */
+  /* z-index: -2; */
+  /* position: absolute; */
 }
 
 .navbar {
@@ -12,15 +16,52 @@
   
 }
 
-.card::after{
-  position: absolute;
-  height: 100%;
+.card{
+  position: relative;
   width: 100%;
-  background-image: conic-gradient(rgb(0, 166, 255), rgb(204, 0, 204), rgb(0, 166, 255));
+  height: 100%;
+}
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card::after, .card::before{
+  content: '';
+  position: absolute;
+  background: blue;
+  height: calc(100% + 30px);
+  width: calc(100% + 30px);
+  background-image: conic-gradient(from var(--angle), rgb(162, 0, 255), rgb(2, 196, 255), rgb(162, 0, 255));
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
-  padding: 3px;
-  border-radius: 10px;
+  /* padding: 60px; */
+  border-radius: 20px;
+  animation: 3s moving linear infinite;
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card::before{
+  filter: blur(1.5rem);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover::after, .card:hover::before{
+  opacity: 1;
+}
+
+@keyframes moving{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
 }
