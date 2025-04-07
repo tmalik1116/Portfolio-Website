@@ -1,14 +1,29 @@
 @import "tailwindcss";
 
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  position: absolute;
   /* min-height: 100vh; */
   /* background-color: rgb(34, 10, 94); */
-  /* z-index: -2; */
   /* position: absolute; */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Avoid horizontal scrollbar if the starfield is wide */
+}
+
+body {
+  min-height: 200vh;
+} 
+
+canvas {
+  pointer-events: none;
+  z-index: -50;
+  background-image: image("assets/space_background.jpeg");
 }
 
 .navbar {
@@ -20,6 +35,12 @@
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.card-expanded{
+  width: 100%;
+  height: auto; 
+  z-index: 2;
 }
 
 @property --angle{
@@ -44,7 +65,7 @@
   animation: 3s moving linear infinite;
 
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .card::before{
