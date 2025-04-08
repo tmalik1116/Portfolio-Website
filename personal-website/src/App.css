@@ -14,6 +14,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden; /* Avoid horizontal scrollbar if the starfield is wide */
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 body {
@@ -23,7 +24,10 @@ body {
 canvas {
   pointer-events: none;
   z-index: -50;
-  background-image: image("assets/space_background.jpeg");
+}
+
+h2 {
+  font-size:x-large;
 }
 
 .navbar {
