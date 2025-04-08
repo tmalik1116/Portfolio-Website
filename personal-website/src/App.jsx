@@ -11,17 +11,20 @@ function App() {
   return (
     <>
       <div className="" id="main-container">
-        <NavBar />
 
-        <StarBackground />
+        <div className="scrollable-background">
+          <StarBackground />
+        </div>
 
-        <AboutMe className="mt-0"/>
-        
-        <div className="mt-10 mb-5 z-50"></div>
-        <ProjectMenu />
-        {/* <ProjectMenu />
-        <ProjectMenu />
-        <ProjectMenu /> */}
+        <div className="content-container">
+          <NavBar />
+          <div className="pt-20">
+            <AboutMe className="pt-50"/>
+            
+            <div className="mt-10 mb-5 z-50"></div>
+            <ProjectMenu />
+          </div>
+        </div>
       </div>
       
     </>

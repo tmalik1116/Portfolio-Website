@@ -3,28 +3,49 @@
 #root {
   margin: 0 auto;
   text-align: center;
-  position: absolute;
-  /* min-height: 100vh; */
-  /* background-color: rgb(34, 10, 94); */
-  /* position: absolute; */
+  /* Remove position: absolute */
+  width: 100%; /* Ensure it takes full width */
+  min-height: 100vh; /* Minimum height equal to viewport */
 }
 
 html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden; /* Avoid horizontal scrollbar if the starfield is wide */
+  overflow-x: hidden;
   font-family: 'Lexend Deca', sans-serif;
+  min-height: 100vh; /* Minimum height equal to viewport */
+  color: white;
 }
 
 body {
-  min-height: 200vh;
-} 
+  /* Change this if you need scrolling space for your starfield effect */
+  /* Otherwise, let the content determine the height */
+  min-height: 100vh;
+}
 
-canvas {
+/* For the scrollable background */
+.scrollable-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+
+/* Your actual content */
+.content-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  /* Height will auto-adjust to content */
+}
+
+/* canvas {
   pointer-events: none;
   z-index: -50;
-}
+} */
 
 h2 {
   font-size:x-large;

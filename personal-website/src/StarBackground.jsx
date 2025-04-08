@@ -13,6 +13,8 @@ const StarBackground = () => {
     stars: null,
     animationFrameId: null
   });
+
+  const prevScrollRef = useRef(0);
   
   // Initialize Three.js scene once
   useEffect(() => {
@@ -120,7 +122,7 @@ const StarBackground = () => {
     // Handle scroll
     const handleScroll = () => {
       if (!state.isInitialized) return;
-      
+
       const scrollPosition = window.scrollY;
       const maxScroll = document.body.scrollHeight - window.innerHeight || 1;
       const scrollPercentage = Math.min(scrollPosition / maxScroll, 1);
@@ -128,6 +130,27 @@ const StarBackground = () => {
       // Update camera position
       state.camera.position.z = 20 + (scrollPercentage * 80);
     };
+
+    // const handleScroll = () => {
+    //   if (!state.isInitialized) return;
+      
+    //   const currentScrollY = window.scrollY;
+    //   const scrollDirection = currentScrollY > prevScrollRef.current ? 1 : -1; // 1 for down, -1 for up
+      
+    //   // Save current scroll position for next comparison
+    //   prevScrollRef.current = currentScrollY;
+      
+    //   const scrollPosition = window.scrollY;
+    //   const maxScroll = document.body.scrollHeight - window.innerHeight || 1;
+    //   const scrollPercentage = Math.min(scrollPosition / maxScroll, 1);
+      
+    //   // Apply rotation based on direction
+    //   if (state.stars) {
+    //     // The direction factor makes it rotate differently based on scroll direction
+    //     state.stars.rotation.x += (scrollDirection * scrollPercentage) / 20;
+    //     // state.stars.rotation.y += (scrollDirection * scrollPercentage) / 30;
+    //   }
+    // };
     
     // Add event listeners
     window.addEventListener('resize', handleResize);
