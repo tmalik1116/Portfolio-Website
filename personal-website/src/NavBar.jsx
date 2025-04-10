@@ -5,14 +5,27 @@ import email from './assets/email icon.png';
 
 export default function NavBar(props) {
     return (
-        <div className="fixed top-0 left-0 w-full h-max bg-gray-900 pt-2 shadow-lg shadow-purple-900 z-50">
+        <div className="fixed top-0 left-0 w-full h-max bg-gray-900 pt-2  shadow-purple-900 z-50">
             <div className="flex justify-between items-center px-4 mb-2">
-                <h3 className="font-bold cursor-pointer hover:text-purple-400 transition-all 150ms ease-in-out">Talha Malik</h3>
+                <h3 className="font-bold cursor-pointer nav-item hover:text-purple-400 transition-all 150ms ease-in-out">
+                    Talha Malik
+                    <span className="navbar-glow"></span>
+                </h3>
                 
                 <div className="flex space-x-8 flex-grow justify-center">
-                    <h4 className="cursor-pointer hover:text-purple-400 transition-all 150ms ease-in-out">Projects</h4>
-                    <h4 className="cursor-pointer hover:text-purple-400 transition-all 150ms ease-in-out">Experience</h4>
-                    <h4 className="cursor-pointer hover:text-purple-400 transition-all 150ms ease-in-out">Contact</h4>
+                    <h4 className="cursor-pointer nav-item hover:text-purple-400 transition-all 150ms ease-in-out">
+                        Experience
+                        <span className="navbar-glow"></span>
+                    </h4>
+
+                    <h4 className="cursor-pointer nav-item hover:text-purple-400 transition-all 150ms ease-in-out">
+                        Projects
+                        <span className="navbar-glow"></span>
+                    </h4>
+                    <h4 className="cursor-pointer nav-item hover:text-purple-400 transition-all 150ms ease-in-out">
+                        Contact
+                        <span className="navbar-glow"></span>
+                    </h4>
                 </div>
                 
                 <div className="flex space-x-4 items-center mt-0.5">

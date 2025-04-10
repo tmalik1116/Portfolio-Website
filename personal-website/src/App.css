@@ -56,10 +56,57 @@ h2 {
   
 }
 
+.nav-item {
+  position: relative;
+}
+
+.nav-glow {
+  position: absolute;
+  bottom: -7px; /* Adjust as needed to position below text */
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-image: conic-gradient(from 0deg, rgb(162, 0, 255), rgb(2, 196, 255), rgb(162, 0, 255));
+  filter: blur(2px);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* .nav-item:hover .nav-glow{
+  opacity: 1;
+  animation: glowMoving 3s linear infinite;
+} */
+
+.nav-item:hover::after {
+  opacity: 1;
+  animation: moveGradient 3s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, rgb(162, 0, 255), rgb(2, 196, 255), rgb(162, 0, 255));
+  background-size: 200% 100%;
+  filter: blur(1px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
 .card{
   position: relative;
-  width: 100%;
-  height: 100%;
 }
 
 .card-expanded{
@@ -69,6 +116,12 @@ h2 {
 }
 
 @property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@property --nav-angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
@@ -109,5 +162,16 @@ h2 {
   }
   to{
     --angle: 360deg;
+  }
+}
+
+@keyframes glowMoving {
+  from {
+    background-image: conic-gradient(from var(--nav-angle), rgb(162, 0, 255), rgb(2, 196, 255), rgb(162, 0, 255));
+    --nav-angle: 0deg;
+  }
+  to {
+    background-image: conic-gradient(from var(--nav-angle), rgb(162, 0, 255), rgb(2, 196, 255), rgb(162, 0, 255));
+    --nav-angle: 360deg;
   }
 }
