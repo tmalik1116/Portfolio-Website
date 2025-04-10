@@ -17,14 +17,13 @@ function App() {
           <StarBackground />
         </div>
 
-        <div className="content-container">
+        <div className="content-container w-full overflow-x-hidden">
           <NavBar />
-          <div className="pt-20">
-            <AboutMe className="pt-50"/>
-            
-            <div className="mt-10 mb-5 z-50"></div>
+          <div className="pt-20 flex flex-col items-center w-full">
+            <AboutMe />
+            <div className="mt-10 mb-5"></div>
             <ProjectMenu />
-            <ExperienceMenu className="justify-center"/>
+            <ExperienceMenu />
           </div>
         </div>
       </div>
