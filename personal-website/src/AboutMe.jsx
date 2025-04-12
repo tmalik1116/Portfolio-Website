@@ -7,7 +7,7 @@ export default function AboutMe() {
       <div className="flex flex-col w-full md:w-1/2">
         <h1 className="font-bold text-2xl mb-4">Hi, I'm Talha Malik</h1>
         <h2 className="mb-4">I am an incoming fourth-year student in the Bachelor of Computing, Computer Science Co-op program at the University of Guelph.</h2>
-        <h2 className="mb-4">I have had a passion for technology for years, with experience in full-stack development, machine learning, data science, and project management.</h2>
+        <h2 className="mb-4">I have had an interest in technology for years, with experience in full-stack development, machine learning, data science, and project management.</h2>
         <h2 className="mb-4">I am always looking for new opportunities to learn and grow, and I am excited to see where my career takes me next.</h2>
       </div>
 

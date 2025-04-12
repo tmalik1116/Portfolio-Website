@@ -22,8 +22,8 @@ function App() {
           <div className="pt-20 flex flex-col items-center w-full">
             <AboutMe />
             <div className="mt-10 mb-5"></div>
-            <ProjectMenu />
             <ExperienceMenu />
+            <ProjectMenu />
           </div>
         </div>
       </div>
