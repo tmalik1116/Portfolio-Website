@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
+    "lucide-react": "^0.488.0",
     "three": "^0.175.0"
   }
 }

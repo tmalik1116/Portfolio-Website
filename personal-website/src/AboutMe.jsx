@@ -1,5 +1,6 @@
 import React from 'react';
 import batman from './assets/batman.jpg';
+import portrait from './assets/portrait.jpg';
 
 export default function AboutMe() {
   return (
@@ -12,11 +13,11 @@ export default function AboutMe() {
       </div>
 
       <div className="bg-gray-900 w-9/10 md:w-2/5 rounded-2xl p-3 flex items-center md:self-stretch mx-8 md:mx-0 justify-around" id="card">
-        <div className="card w-full h-full">
+        <div className="card aspect-square w-full h-full">
           <img 
-            src={batman} 
+            src={portrait} 
             alt="Talha Malik" 
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-auto aspect-square object-cover rounded-lg"
           />
         </div>
       </div>

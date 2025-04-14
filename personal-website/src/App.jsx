@@ -23,6 +23,7 @@ function App() {
             <AboutMe />
             <div className="mt-10 mb-5"></div>
             <ExperienceMenu />
+            <div className="mt-10 mb-5"></div>
             <ProjectMenu />
           </div>
         </div>
