@@ -8,6 +8,10 @@
   min-height: 100vh; /* Minimum height equal to viewport */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -81,6 +85,22 @@ h2 {
   opacity: 1;
   animation: moveGradient 3s linear infinite;
 }
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out forwards;
+}
+
 
 @keyframes moveGradient {
   0% {

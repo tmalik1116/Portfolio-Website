@@ -1,19 +1,18 @@
-import react from 'react';
-import ExperienceCard from './ExperienceCard';
+import React from 'react';
 import ExperienceCard_2 from './ExperienceCard_2';
-import iGEM_1 from './assets/iGEM logo.png';
 import iGEM_2 from './assets/iGEM logo small.jpg';
-import Chandos_1 from './assets/Chandos logo.png';
 import Chandos_2 from './assets/Chandos logo small.webp';
 import career_arrow from './assets/career_arrow.png';
 import kettleby_1 from './assets/kettleby_logo_upscayl_5x_digital-art-4x.png';
 
-export default function ExperienceMenu(props) {
+export default function ExperienceMenu() {
     return (
-        <div className="flex flex-col w-max h-full mt-20 px-4 justify-around"> {/* This MUST have fixed height, changing this will break it */}
-            <h1 className="text-center font-semibold">Experience</h1>
-            <div className="flex flex-col pt-5">
+        <div className="flex flex-col w-full md:w-max h-full mt-20 px-4 justify-around">
+            {/* w-full on mobile, w-max on large screens */}
+            <h1 className="text-center font-semibold text-2xl mb-6">Experience</h1>
 
+            <div className="flex flex-col pt-5">
+                
                 <ExperienceCard_2
                     name="Modelling & Software General Member"
                     company="iGEM Guelph"
@@ -22,7 +21,8 @@ export default function ExperienceMenu(props) {
                     point2="Responsibilities will include software modelling, data analysis, and collaborative software development" 
                     image={iGEM_2}
                 />
-                <img className="h-30 object-contain" src={career_arrow}></img>
+                
+                <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
                 <ExperienceCard_2
                     name="Student Project Coordinator (Co-op)"
@@ -33,7 +33,7 @@ export default function ExperienceMenu(props) {
                     image={Chandos_2}
                 />
 
-                <img className="h-30 object-contain" src={career_arrow}></img>
+                <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
                 <ExperienceCard_2
                     name="Day Counsellor"
@@ -43,9 +43,8 @@ export default function ExperienceMenu(props) {
                     point2="Gained valuable teaching experience as well as the ability to supervise and lead a group of individuals" 
                     image={kettleby_1}
                 />
+
             </div>
-            
-            
         </div>
     )
 }

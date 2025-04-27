@@ -6,6 +6,7 @@ import StarBackground from './StarBackground'
 import AboutMe from './AboutMe'
 import ExperienceMenu from './ExperienceMenu'
 import ContactMenu from './ContactMenu'
+import SkillsMenu from './SkillsMenu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,10 @@ function App() {
             <div className="mt-10 mb-5"></div>
             <ProjectMenu />
             <div className="mt-10 mb-5"></div>
+            <SkillsMenu />
+            <div className="mt-10 mb-5"></div>
             <ContactMenu />
+            <div className="mt-10 mb-5"></div>
           </div>
         </div>
       </div>

@@ -3,13 +3,13 @@ import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 
 export default function ContactMenu() {
     return (
-        <div className="flex flex-col mt-10 w-full">
+        <div className="flex flex-col w-full">
             <h1 className="font-semibold text-2xl mb-6 text-center">Contact Me</h1>
-            <div className="flex flex-wrap justify-center gap-6 pb-20">
+            <div className="flex flex-wrap justify-center gap-6">
 
                 {/* Email */}
                 <a 
-                    href="mailto:your.email@example.com" 
+                    href="mailto:tmalik2004@gmail.com?subject=Let's%20Connect!&body=Hello%20Talha%2C%0A%0A" 
                     className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
                 >
                     <Mail size={20} />
@@ -18,7 +18,7 @@ export default function ContactMenu() {
 
                 {/* Phone */}
                 <a 
-                    href="tel:+1234567890" 
+                    href="tel:+13065962311" 
                     className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
                 >
                     <Phone size={20} />
@@ -27,7 +27,7 @@ export default function ContactMenu() {
 
                 {/* LinkedIn */}
                 <a 
-                    href="https://www.linkedin.com/in/yourprofile" 
+                    href="https://www.linkedin.com/in/talha-malik-software-developer" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 bg-blue-900 hover:bg-blue-800 text-white rounded-lg transition-colors"
@@ -38,7 +38,7 @@ export default function ContactMenu() {
 
                 {/* GitHub */}
                 <a 
-                    href="https://github.com/yourgithub" 
+                    href="https://github.com/tmalik1116" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors"
