@@ -3,7 +3,7 @@ import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 
 export default function ContactMenu() {
     return (
-        <div className="flex flex-col w-full">
+        <div id="contact" className="flex flex-col w-full">
             <h1 className="font-semibold text-2xl mb-6 text-center">Contact Me</h1>
             <div className="flex flex-wrap justify-center gap-6">
 

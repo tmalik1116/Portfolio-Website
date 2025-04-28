@@ -25,7 +25,7 @@ export default function SkillsMenu() {
     ];
 
     return (
-        <div className="flex flex-col mt-10  mb-10 w-9/10">
+        <div id="skill" className="flex flex-col mt-10  mb-10 w-9/10">
             <h1 className="font-semibold text-2xl mb-6 text-center">Skills</h1>
             <div className="flex flex-wrap justify-center gap-8">
 

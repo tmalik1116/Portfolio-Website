@@ -10,7 +10,7 @@ import career_arrow from './assets/career_arrow.png';
 
 export default function ExperienceMenu() {
     return (
-        <div className="flex flex-col w-full md:w-max h-full mt-20 px-4 justify-around">
+        <div id="experience" className="flex flex-col w-full md:w-max h-full mt-20 px-4 justify-around">
             <h1 className="text-center font-semibold text-2xl mb-6">Experience</h1>
 
             <div className="flex flex-col pt-5">

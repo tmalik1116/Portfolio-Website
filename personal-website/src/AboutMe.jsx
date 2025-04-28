@@ -4,7 +4,7 @@ import portrait from './assets/portrait.jpg';
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-3 py-6 justify-around px-4 md:px-6">
+    <div id="home" className="flex flex-col md:flex-row items-center gap-3 py-6 justify-around px-4 md:px-6">
       <div className="flex flex-col w-full md:w-1/2">
         <h1 className="font-bold text-2xl mb-4">Hi, I'm Talha Malik</h1>
         <h2 className="mb-4">I am an incoming fourth-year student in the Bachelor of Computing, Computer Science Co-op program at the University of Guelph.</h2>

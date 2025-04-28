@@ -24,9 +24,9 @@ function App() {
           <div className="pt-20 flex flex-col items-center w-full">
             <AboutMe />
             <div className="mt-10 mb-5"></div>
-            <ExperienceMenu />
+            <ExperienceMenu id="experience"/>
             <div className="mt-10 mb-5"></div>
-            <ProjectMenu />
+            <ProjectMenu id="#projects"/>
             <div className="mt-10 mb-5"></div>
             <SkillsMenu />
             <div className="mt-10 mb-5"></div>

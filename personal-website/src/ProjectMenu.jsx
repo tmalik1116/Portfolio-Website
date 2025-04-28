@@ -7,7 +7,7 @@ import Portfolio from './assets/portfolio-image.png';
 
 export default function ProjectMenu(props) {
     return (
-        <div className="flex flex-col mt-5 w-full">
+        <div id="projects" className="flex flex-col mt-5 w-full">
             <h1 className="mt-0 font-semibold text-2xl">Projects</h1>
             <div className="flex flex-wrap justify-center gap-6 mt-5">
                 <ProjectCard className="w-full sm:w-64 md:w-72 m-3" 

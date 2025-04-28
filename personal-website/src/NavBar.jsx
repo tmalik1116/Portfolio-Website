@@ -10,35 +10,47 @@ export default function NavBar() {
 
                 {/* Left: Name */}
                 <h3 className="font-bold cursor-pointer group relative text-lg sm:text-xl w-full md:w-auto text-center">
-                    <span className="text-white group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
-                        Talha Malik
-                    </span>
+                    <a href="#home">
+                        <span className="text-white font-bold group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                            Talha Malik
+                        </span>
+                    </a>
                 </h3>
 
                 {/* Center: Tabs (hidden on mobile) */}
                 <div className="hidden md:flex space-x-8 flex-grow justify-center">
                     <h4 className="cursor-pointer group relative text-white">
-                        <span className="group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
-                            Experience
-                        </span>
+                        <a href="#experience" className="relative group">
+                            <span className="text-white group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                                Experience
+                            </span>
+                        </a>
                     </h4>
 
                     <h4 className="cursor-pointer group relative text-white">
-                        <span className="group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
-                            Projects
-                        </span>
+                        <a href="#projects" className="relative group">
+                            <span className="text-white group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                                Projects
+                            </span>
+                        </a>
+                        
                     </h4>
 
                     <h4 className="cursor-pointer group relative text-white">
-                        <span className="group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
-                            Skills
-                        </span>
+                        <a href="#skill" className="relative group">
+                            <span className="text-white group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                                Skills
+                            </span>
+
+                        </a>
                     </h4>
 
                     <h4 className="cursor-pointer group relative text-white">
-                        <span className="group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
-                            Contact
-                        </span>
+                        <a href="#contact" className="relative group">
+                            <span className="text-white group-hover:bg-gradient-to-r from-blue-400 to-purple-500 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                                Contact
+                            </span>
+                        </a>
                     </h4>
                 </div>
 
