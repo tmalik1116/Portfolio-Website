@@ -4,6 +4,7 @@ import QualifAI from './assets/qualif-ai.png';
 import PoolImage from './assets/pool-image.png';
 import Redline from './assets/redline_image.png';
 import Portfolio from './assets/portfolio-image.png';
+import Sportify from './assets/sportify_image.png';
 
 export default function ProjectMenu(props) {
     return (
@@ -44,6 +45,14 @@ export default function ProjectMenu(props) {
                     githubLink="https://github.com/tmalik1116/Portfolio-Website"
                     demoLink="https://talhamalik.ca"
                     image={Portfolio}/>
+                <ProjectCard className="w-full sm:w-64 md:w-72 m-3"
+                    name="Sportify"
+                    description="Built as a team of 4 for GDSC Hacks 2025, this app allows users to find and RSVP for local sports games. It features Gemini AI integration for head-to-head stat comparisons and 1-on-1 coaching."
+                    tech="Dart, Flutter, Firebase, Gemini API"
+                    date="2025"
+                    showHoverEffects={true}
+                    githubLink="https://github.com/m-GDEV/Sportify"
+                    image={Sportify}/>
             </div>
         </div>
     );
