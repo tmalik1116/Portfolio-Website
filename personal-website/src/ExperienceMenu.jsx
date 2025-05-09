@@ -21,7 +21,7 @@ export default function ExperienceMenu() {
                     company="iGEM Guelph"
                     timeframe="March 2025 - Present"
                     point1="Contributing to technical efforts of the University’s team for an international biological research competition"
-                    point2="Responsibilities will include RESTful API integration, ML development, and Agile/SCRUM project management" 
+                    point2="Responsibilities include RESTful API integration, ML development, and Agile/SCRUM project management" 
                     imageMobile={iGEM_1}
                     imageDesktop={iGEM_2}
                 />
