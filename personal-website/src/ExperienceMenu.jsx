@@ -17,11 +17,11 @@ export default function ExperienceMenu() {
                 
                 {/* Card 1 */}
                 <ExperienceCard_2
-                    name="Modelling & Software General Member"
+                    name="Backend Module Lead"
                     company="iGEM Guelph"
                     timeframe="March 2025 - Present"
                     point1="Contributing to technical efforts of the University’s team for an international biological research competition"
-                    point2="Responsibilities will include software modelling, data analysis, and collaborative software development" 
+                    point2="Responsibilities will include RESTful API integration, ML development, and Agile/SCRUM project management" 
                     imageMobile={iGEM_1}
                     imageDesktop={iGEM_2}
                 />
