@@ -19,6 +19,7 @@ import pandas_icon from './assets/pandas-icon.png';
 import powerbi_icon from './assets/powerbi-icon.png';
 import selenium_icon from './assets/selenium-icon.png';
 import sklearn_icon from './assets/sklearn-icon.png';
+import pytorch_icon from './assets/pytorch-icon.png';
 
 export default function SkillsMenu() {
     const skills = [
@@ -36,6 +37,7 @@ export default function SkillsMenu() {
         { name: "Firebase", src: firebase_icon, bg: "bg-gray-900" },
         { name: "Flutter", src: flutter_icon, bg: "bg-gray-900" },
         { name: "Gemini", src: gemini_icon, bg: "bg-gray-900" },
+        { name: "PyTorch", src: pytorch_icon, bg: "bg-white" },
         { name: "Pandas", src: pandas_icon, bg: "bg-white" },
         { name: "Selenium", src: selenium_icon, bg: "bg-white" },
         { name: "Scikit-learn", src: sklearn_icon, bg: "bg-white" },
