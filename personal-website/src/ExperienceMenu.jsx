@@ -1,5 +1,7 @@
 import React from 'react';
 import ExperienceCard_2 from './ExperienceCard_2';
+import UofG_1 from './assets/uofg_small.png'
+import UofG_2 from './assets/uofg_2.png'
 import iGEM_2 from './assets/iGEM logo small.jpg';
 import iGEM_1 from './assets/iGEM logo.png';
 import Chandos_2 from './assets/Chandos logo small.webp';
@@ -15,6 +17,19 @@ export default function ExperienceMenu() {
 
             <div className="flex flex-col pt-5">
                 
+                {/* Card 1 */}
+                <ExperienceCard_2
+                    name="Teaching Assistant, CIS2520 Data Structures"
+                    company="University of Guelph"
+                    timeframe="September 2025 - Present"
+                    point1="Leveraging strong understanding of data structures and algorithms to contribute to student learning and success"
+                    point2="Responsibilities include conducting lab sessions, grading coursework, and providing one-on-one support to students" 
+                    imageMobile={UofG_2}
+                    imageDesktop={UofG_1}
+                />
+                
+                <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
+
                 {/* Card 1 */}
                 <ExperienceCard_2
                     name="Backend Module Lead"
