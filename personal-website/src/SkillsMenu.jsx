@@ -14,6 +14,7 @@ import dart_icon from './assets/dart-icon.png';
 import excel_icon from './assets/excel-icon.png';
 import firebase_icon from './assets/firebase-icon.png';
 import flutter_icon from './assets/flutter-icon.png';
+import openai_icon from './assets/openai.svg';
 import gemini_icon from './assets/gemini-icon.png';
 import pandas_icon from './assets/pandas-icon.png';
 import powerbi_icon from './assets/powerbi-icon.png';
@@ -36,6 +37,7 @@ export default function SkillsMenu() {
         { name: "Dart", src: dart_icon, bg: "bg-gray-900" },
         { name: "Firebase", src: firebase_icon, bg: "bg-gray-900" },
         { name: "Flutter", src: flutter_icon, bg: "bg-gray-900" },
+        { name: "OpenAI", src: openai_icon, bg: "bg-white" },
         { name: "Gemini", src: gemini_icon, bg: "bg-gray-900" },
         { name: "PyTorch", src: pytorch_icon, bg: "bg-white" },
         { name: "Pandas", src: pandas_icon, bg: "bg-white" },
