@@ -1,6 +1,6 @@
 import React from 'react';
 import ExperienceCard_2 from './ExperienceCard_2';
-import UofG_1 from './assets/uofg_logo.jpeg'
+import UofG_1 from './assets/uofg_logo.jpg'
 import UofG_2 from './assets/uofg_2.png'
 import iGEM_2 from './assets/iGEM logo small.jpg';
 import iGEM_1 from './assets/iGEM logo.png';
