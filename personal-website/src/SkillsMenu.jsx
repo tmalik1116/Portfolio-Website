@@ -35,7 +35,7 @@ import csharp_icon from './assets/csharp-icon.png';
 export default function SkillsMenu() {
     const skills = [
         { name: "Python", src: python_icon, bg: "bg-gray-900" },
-        { name: "C", src: c_icon, bg: "bg-gray-900" },
+        { name: "C", src: c_icon, bg: "bg-white-900" },
         { name: "C++", src: cpp_icon, bg: "bg-white" },
         { name: "C#", src: csharp_icon, bg: "bg-white" },
         { name: "Kotlin", src: kotlin_icon, bg: "bg-gray-900" },
