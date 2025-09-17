@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/next"
 import './App.css'
 import NavBar from './NavBar'
 import ProjectMenu from './ProjectMenu'
