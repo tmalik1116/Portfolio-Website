@@ -56,9 +56,9 @@ export default function SkillsMenu() {
         { name: "Scikit-learn", src: sklearn_icon, bg: "bg-white" },
         { name: "Flask", src: flask_icon, bg: "bg-white" },
         { name: "FastAPI", src: fastapi_icon, bg: "bg-gray-900" },
-        { name: "Vue.js", src: vue_icon, bg: "bg-white" },
+        { name: "Vue", src: vue_icon, bg: "bg-white" },
         { name: "Streamlit", src: streamlit_icon, bg: "bg-white" },
-        { name: "Node.js", src: node_icon, bg: "bg-white" },
+        { name: "Node", src: node_icon, bg: "bg-white" },
         { name: "Excel", src: excel_icon, bg: "bg-white" },
         { name: "Power BI", src: powerbi_icon, bg: "bg-white" },
     ];
