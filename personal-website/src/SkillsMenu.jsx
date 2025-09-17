@@ -28,7 +28,7 @@ import node_icon from './assets/node-icon.png';
 import keras_icon from './assets/keras-icon.png';
 import flask_icon from './assets/flask-icon.png';
 import fastapi_icon from './assets/fastapi-icon.svg';
-import typescript_icon from './assets/typescript-icon.png';
+import typescript_icon from './assets/typescript-icon.svg';
 
 export default function SkillsMenu() {
     const skills = [
