@@ -21,6 +21,13 @@ import powerbi_icon from './assets/powerbi-icon.png';
 import selenium_icon from './assets/selenium-icon.png';
 import sklearn_icon from './assets/sklearn-icon.png';
 import pytorch_icon from './assets/pytorch-icon.png';
+import tensorflow_icon from './assets/tensorflow-icon.png';
+import vue_icon from './assets/vue-icon.png';
+import streamlit_icon from './assets/streamlit-icon.png';
+import node_icon from './assets/node-icon.png';
+import keras_icon from './assets/keras-icon.png';
+import flask_icon from './assets/flask-icon.png';
+import fastapi_icon from './assets/fastapi-icon.svg';
 
 export default function SkillsMenu() {
     const skills = [
@@ -40,9 +47,16 @@ export default function SkillsMenu() {
         { name: "OpenAI", src: openai_icon, bg: "bg-white" },
         { name: "Gemini", src: gemini_icon, bg: "bg-gray-900" },
         { name: "PyTorch", src: pytorch_icon, bg: "bg-white" },
+        { name: "TensorFlow", src: tensorflow_icon, bg: "bg-white" },
+        { name: "Keras", src: keras_icon, bg: "bg-white" },
         { name: "Pandas", src: pandas_icon, bg: "bg-white" },
         { name: "Selenium", src: selenium_icon, bg: "bg-white" },
         { name: "Scikit-learn", src: sklearn_icon, bg: "bg-white" },
+        { name: "Flask", src: flask_icon, bg: "bg-white" },
+        { name: "FastAPI", src: fastapi_icon, bg: "bg-gray-900" },
+        { name: "Vue.js", src: vue_icon, bg: "bg-white" },
+        { name: "Streamlit", src: streamlit_icon, bg: "bg-white" },
+        { name: "Node.js", src: node_icon, bg: "bg-white" },
         { name: "Excel", src: excel_icon, bg: "bg-white" },
         { name: "Power BI", src: powerbi_icon, bg: "bg-white" },
     ];
