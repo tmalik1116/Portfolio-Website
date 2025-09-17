@@ -28,6 +28,7 @@ import node_icon from './assets/node-icon.png';
 import keras_icon from './assets/keras-icon.png';
 import flask_icon from './assets/flask-icon.png';
 import fastapi_icon from './assets/fastapi-icon.svg';
+import typescript_icon from './assets/typescript-icon.png';
 
 export default function SkillsMenu() {
     const skills = [
@@ -39,6 +40,7 @@ export default function SkillsMenu() {
         { name: "Kotlin", src: kotlin_icon, bg: "bg-gray-900" },
         { name: "Java", src: java_icon, bg: "bg-white" },
         { name: "JavaScript", src: js_icon, bg: "bg-white" },
+        { name: "TypeScript", src: typescript_icon, bg: "bg-white" },
         { name: "Git", src: git_icon, bg: "bg-gray-900" },
         { name: "HTML", src: html_icon, bg: "bg-gray-900" },
         { name: "Dart", src: dart_icon, bg: "bg-gray-900" },
