@@ -40,7 +40,7 @@ export default function SkillsMenu() {
         { name: "Kotlin", src: kotlin_icon, bg: "bg-gray-900" },
         { name: "Java", src: java_icon, bg: "bg-white" },
         { name: "JavaScript", src: js_icon, bg: "bg-white" },
-        { name: "TypeScript", src: typescript_icon, bg: "bg-white" },
+        { name: "TypeScript", src: typescript_icon, bg: "bg-blue-500" },
         { name: "Git", src: git_icon, bg: "bg-gray-900" },
         { name: "HTML", src: html_icon, bg: "bg-gray-900" },
         { name: "Dart", src: dart_icon, bg: "bg-gray-900" },
