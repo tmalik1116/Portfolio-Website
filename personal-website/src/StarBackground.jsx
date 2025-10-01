@@ -128,7 +128,7 @@ const StarBackground = () => {
       const scrollPercentage = Math.min(scrollPosition / maxScroll, 1);
       
       // Update camera position
-      state.camera.position.z = 20 + (scrollPercentage * 80);
+      state.camera.position.z = 20 + (scrollPercentage * 120);
     };
 
     // const handleScroll = () => {
