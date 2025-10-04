@@ -2,7 +2,7 @@ import React from 'react';
 import batman from './assets/batman.jpg';
 import portrait from './assets/portrait.jpg';
 import portrait2 from './assets/portrait2.jpg'
-import portrait3 from './assets/portrait3.jpg'
+import portrait3 from './assets/portrait_igem.jpeg'
 
 export default function AboutMe() {
   return (
