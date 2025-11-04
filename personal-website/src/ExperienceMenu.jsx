@@ -1,7 +1,7 @@
 import React from 'react';
 import ExperienceCard_2 from './ExperienceCard_2';
-import recurrent_1 from './recurrent_logo_1.png';
-import recurrent_2 from './recurrent_logo_2.png'; 
+import recurrent_1 from './assets/recurrent_logo_1.png';
+import recurrent_2 from './assets/recurrent_logo_2.png'; 
 import UofG_1 from './assets/uofg_logo.jpg';
 import UofG_2 from './assets/uofg_2.png';
 import iGEM_2 from './assets/iGEM logo small.jpg';
