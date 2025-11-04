@@ -1,7 +1,9 @@
 import React from 'react';
 import ExperienceCard_2 from './ExperienceCard_2';
-import UofG_1 from './assets/uofg_logo.jpg'
-import UofG_2 from './assets/uofg_2.png'
+import recurrent_1 from './recurrent_logo_1.png';
+import recurrent_2 from './recurrent_logo_2.png'; 
+import UofG_1 from './assets/uofg_logo.jpg';
+import UofG_2 from './assets/uofg_2.png';
 import iGEM_2 from './assets/iGEM logo small.jpg';
 import iGEM_1 from './assets/iGEM logo.png';
 import Chandos_2 from './assets/Chandos logo small.webp';
@@ -19,6 +21,19 @@ export default function ExperienceMenu() {
                 
                 {/* Card 1 */}
                 <ExperienceCard_2
+                    name="Junior Software Developer Co-op"
+                    company="Recurrent Energy"
+                    timeframe="January 2026 - Incoming"
+                    point1="Leveraging skills in full-stack development to create and maintain web applications for data reporting and visulization"
+                    point2="Developing new tools for data processing: warehousing, cleaning, transforming, modeling" 
+                    imageMobile={recurrent_2}
+                    imageDesktop={recurrent_1}
+                />
+                
+                <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
+
+                {/* Card 2 */}
+                <ExperienceCard_2
                     name="Teaching Assistant, Data Structures"
                     company="University of Guelph"
                     timeframe="September 2025 - Present"
@@ -30,7 +45,7 @@ export default function ExperienceMenu() {
                 
                 <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
-                {/* Card 1 */}
+                {/* Card 3 */}
                 <ExperienceCard_2
                     name="Backend Module Lead"
                     company="iGEM Guelph"
@@ -43,7 +58,7 @@ export default function ExperienceMenu() {
                 
                 <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
-                {/* Card 2 */}
+                {/* Card 4 */}
                 <ExperienceCard_2
                     name="Student Project Coordinator (Co-op)"
                     company="Chandos Construction"
@@ -56,7 +71,7 @@ export default function ExperienceMenu() {
 
                 <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
-                {/* Card 3 */}
+                {/* Card 5 */}
                 <ExperienceCard_2
                     name="Day Counsellor"
                     company="Kettleby Valley Camp"
