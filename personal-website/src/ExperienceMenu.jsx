@@ -21,11 +21,11 @@ export default function ExperienceMenu() {
                 
                 {/* Card 1 */}
                 <ExperienceCard_2
-                    name="Junior Software Developer Co-op"
+                    name="Junior Software Developer (Co-op)"
                     company="Recurrent Energy"
                     timeframe="January 2026 - Incoming"
                     point1="Leveraging skills in full-stack development to create and maintain web applications for data reporting and visulization"
-                    point2="Developing new tools for data processing: warehousing, cleaning, transforming, modeling" 
+                    point2="Responsibilities will include developing new tools for data processing: warehousing, cleaning, transforming, modelling" 
                     imageMobile={recurrent_2}
                     imageDesktop={recurrent_1}
                 />
