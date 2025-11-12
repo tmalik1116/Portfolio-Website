@@ -72,7 +72,7 @@ const StarBackground = () => {
       });
       
       // Generate random positions
-      const starCount = 3000;
+      const starCount = 5000;
       const positions = new Float32Array(starCount * 3);
       
       for (let i = 0; i < starCount * 3; i += 3) {
@@ -128,7 +128,7 @@ const StarBackground = () => {
       const scrollPercentage = Math.min(scrollPosition / maxScroll, 1);
       
       // Update camera position
-      state.camera.position.z = 20 + (scrollPercentage * 150);
+      state.camera.position.z = 20 + (scrollPercentage * 80);
     };
 
     // const handleScroll = () => {
