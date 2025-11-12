@@ -47,11 +47,11 @@ export default function ExperienceMenu() {
 
                 {/* Card 3 */}
                 <ExperienceCard_2
-                    name="Backend Module Lead"
+                    name="Backend Lead"
                     company="iGEM Guelph"
                     timeframe="March 2025 - Present"
-                    point1="Contributing to technical efforts of the University’s team for an international biological research competition"
-                    point2="Responsibilities include RESTful API integration, ML development, and Agile/SCRUM project management" 
+                    point1="Worked to incorporate OpenAI’s API to develop a full-stack (FastAPI + React) web app for simulating biological ODE models"
+                    point2="Made use of TensorFlow/Keras to develop a custom inference neural network for biological modelling, providing users with a much closer reading of a new genetic system’s viability compared to working from scratch" 
                     imageMobile={iGEM_1}
                     imageDesktop={iGEM_2}
                 />
