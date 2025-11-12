@@ -51,7 +51,7 @@ export default function ExperienceMenu() {
                     company="iGEM Guelph"
                     timeframe="March 2025 - Present"
                     point1="Worked to incorporate OpenAI’s API to develop a full-stack (FastAPI + React) web app for simulating biological ODE models"
-                    point2="Made use of TensorFlow/Keras to develop a custom inference neural network for biological modelling, providing users with a much closer reading of a new genetic system’s viability compared to working from scratch" 
+                    point2="Made use of TensorFlow/Keras to develop a custom inference neural network for biological modelling using existing SynBio standards" 
                     imageMobile={iGEM_1}
                     imageDesktop={iGEM_2}
                 />
