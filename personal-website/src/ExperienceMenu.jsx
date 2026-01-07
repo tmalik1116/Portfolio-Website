@@ -24,7 +24,7 @@ export default function ExperienceMenu() {
                     name="Junior Software Developer (Co-op)"
                     company="Recurrent Energy"
                     timeframe="January 2026 - Present"
-                    point1="Working on RE’s custom REView platform for internal project management and solar farm analytics, helping the development team make usability improvements to the Angular frontend and Django backend"
+                    point1="Working on RE’s custom REView platform for internal project management and solar farm analytics, helping the development team make useability improvements to the Angular frontend and Django backend"
                     point2="Gaining vital skills in Agile development, database design & integration, security fundamentals, server-side optimization techniques and real-time authentication platforms" 
                     imageMobile={recurrent_2}
                     imageDesktop={recurrent_1}
