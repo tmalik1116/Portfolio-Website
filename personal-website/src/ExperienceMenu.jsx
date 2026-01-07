@@ -23,9 +23,9 @@ export default function ExperienceMenu() {
                 <ExperienceCard_2
                     name="Junior Software Developer (Co-op)"
                     company="Recurrent Energy"
-                    timeframe="January 2026 - Incoming"
-                    point1="Leveraging skills in full-stack development to create and maintain web applications for data reporting and visulization"
-                    point2="Responsibilities will include developing new tools for data processing: warehousing, cleaning, transforming, modelling" 
+                    timeframe="January 2026 - Present"
+                    point1="Working on RE’s custom REView platform for internal project management and solar farm analytics, helping the development team make usability improvements to the Angular frontend and Django backend"
+                    point2="Gaining vital skills in Agile development, database design & integration, security fundamentals, server-side optimization techniques and real-time authentication platforms" 
                     imageMobile={recurrent_2}
                     imageDesktop={recurrent_1}
                 />
@@ -36,7 +36,7 @@ export default function ExperienceMenu() {
                 <ExperienceCard_2
                     name="Teaching Assistant, Data Structures"
                     company="University of Guelph"
-                    timeframe="September 2025 - Present"
+                    timeframe="September 2025 - December 2025"
                     point1="Leveraging strong understanding of data structures and algorithms to contribute to student learning and success"
                     point2="Responsibilities include conducting lab sessions, grading coursework, and providing one-on-one support to students" 
                     imageMobile={UofG_2}
@@ -49,7 +49,7 @@ export default function ExperienceMenu() {
                 <ExperienceCard_2
                     name="Backend Lead"
                     company="iGEM Guelph"
-                    timeframe="March 2025 - Present"
+                    timeframe="March 2025 - December 2025"
                     point1="Worked to incorporate OpenAI’s API to develop a full-stack (FastAPI + React) web app for simulating biological ODE models"
                     point2="Made use of TensorFlow/Keras to develop a custom inference neural network for biological modelling using existing SynBio standards" 
                     imageMobile={iGEM_1}

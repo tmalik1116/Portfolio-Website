@@ -72,7 +72,7 @@ const StarBackground = () => {
       });
       
       // Generate random positions
-      const starCount = 5000;
+      const starCount = 3000;
       const positions = new Float32Array(starCount * 3);
       
       for (let i = 0; i < starCount * 3; i += 3) {
