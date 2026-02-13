@@ -28,9 +28,11 @@ import node_icon from './assets/node-icon.png';
 import keras_icon from './assets/keras-icon.png';
 import flask_icon from './assets/flask-icon.png';
 import fastapi_icon from './assets/fastapi-icon.svg';
+import django_icon from "./assets/django-icon.svg";
 import typescript_icon from './assets/typescript-icon.svg';
 import cpp_icon from './assets/cpp-icon.png';
 import csharp_icon from './assets/csharp-icon.png';
+import angular_icon from './assets/angular-icon.jpg';
 
 export default function SkillsMenu() {
     const skills = [
@@ -45,6 +47,7 @@ export default function SkillsMenu() {
         { name: "Dart", src: dart_icon, bg: "bg-gray-900" },
         { name: "HTML", src: html_icon, bg: "bg-gray-900" },
         { name: "React", src: react_icon, bg: "bg-gray-900" },
+        { name: "Angular", src: angular_icon, bg: "bg-gwhite" },
         { name: "Vue", src: vue_icon, bg: "bg-white" },
         { name: "TailwindCSS", src: tailwind_icon, bg: "bg-white" },
         { name: "Flutter", src: flutter_icon, bg: "bg-gray-900" },
@@ -60,6 +63,7 @@ export default function SkillsMenu() {
         { name: "Selenium", src: selenium_icon, bg: "bg-white" },
         { name: "Scikit-learn", src: sklearn_icon, bg: "bg-white" },
         { name: "Flask", src: flask_icon, bg: "bg-white" },
+        { name: "Django", src: django_icon, bg: "bg-gray-900" },
         { name: "FastAPI", src: fastapi_icon, bg: "bg-gray-900" },
         { name: "Streamlit", src: streamlit_icon, bg: "bg-white" },
         { name: "Node", src: node_icon, bg: "bg-white" },

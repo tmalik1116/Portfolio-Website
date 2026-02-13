@@ -34,6 +34,19 @@ export default function ExperienceMenu() {
 
                 {/* Card 2 */}
                 <ExperienceCard_2
+                    name="Software Lead"
+                    company="iGEM Guelph"
+                    timeframe="February 2026 - Present"
+                    point1="Facilitated development of team wiki and led software project development supporting synthetic biology research for UofG's entry to the international iGEM competition"
+                    point2="Gained skills in project management, team leadership" 
+                    imageMobile={iGEM_1}
+                    imageDesktop={iGEM_2}
+                />
+                
+                <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
+
+                {/* Card 3 */}
+                <ExperienceCard_2
                     name="Teaching Assistant, Data Structures"
                     company="University of Guelph"
                     timeframe="September 2025 - December 2025"
@@ -45,7 +58,7 @@ export default function ExperienceMenu() {
                 
                 <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
-                {/* Card 3 */}
+                {/* Card 4 */}
                 <ExperienceCard_2
                     name="Backend Lead"
                     company="iGEM Guelph"
@@ -58,7 +71,7 @@ export default function ExperienceMenu() {
                 
                 <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
-                {/* Card 4 */}
+                {/* Card 5 */}
                 <ExperienceCard_2
                     name="Student Project Coordinator (Co-op)"
                     company="Chandos Construction"
@@ -71,7 +84,7 @@ export default function ExperienceMenu() {
 
                 <img className="h-30 object-contain my-5" src={career_arrow} alt="Arrow" />
 
-                {/* Card 5 */}
+                {/* Card 6 */}
                 <ExperienceCard_2
                     name="Day Counsellor"
                     company="Kettleby Valley Camp"
